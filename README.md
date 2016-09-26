@@ -9,7 +9,7 @@
 
 ## Instructions
 #### Install and require
-Copy ```slider.js``` file and require after latest version of jQuery and before your main JavaScript file
+Copy ```js/slider.js``` file and require after latest version of jQuery and before your main JavaScript file
 ```html
 <!-- Example script load in HTML file -->
 <script src="js/jquery.js"></script>
