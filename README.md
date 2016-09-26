@@ -9,7 +9,7 @@
 
 ## Instructions
 #### Install and require
-Copy ```js/slider.js``` file and require after latest version of jQuery and before your main JavaScript file
+Copy ```js/slider.js``` file and require after latest version of jQuery and before your main JavaScript file:
 ```html
 <!-- Example script load in HTML file -->
 <script src="js/jquery.js"></script>
@@ -18,7 +18,7 @@ Copy ```js/slider.js``` file and require after latest version of jQuery and befo
 ```
 
 #### Nest HTML images and customise CSS
-Nest images within any two custom containers. Recommend duplicating first image at the end for smooth carousel UX.
+Nest images within any two custom containers. Recommend duplicating first image at the end for smooth carousel UX:
 ```html
 <div class="window">
   <div class="container">
@@ -32,7 +32,7 @@ Nest images within any two custom containers. Recommend duplicating first image 
   </div>
 </div>
 ```
-Set window container width and any desired CSS styling.
+Set window container width and any desired CSS styling:
 ```css
 .window {
   width: 300px;
@@ -40,7 +40,7 @@ Set window container width and any desired CSS styling.
 ```
 
 #### Call slider plugin in JavaScript file
-Select the jQuery container element and call .slider() to initialize. Slider function takes one argument, being the image sliding interval in milliseconds.  
+Select the jQuery container element and call .slider() to initialize. Slider function takes one argument, being the image sliding interval in milliseconds:
 
 ```javascript
 $(document).ready(function(){
